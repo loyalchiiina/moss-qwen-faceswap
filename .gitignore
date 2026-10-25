@@ -1,0 +1,38 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+*.egg-info/
+
+# --- 模型权重（体积太大，绝不入库）---
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.bin
+models/
+!docs/images/*.png
+
+# --- 输出与缓存 ---
+output/
+outputs/
+input/
+logs/
+*.log
+temp/
+tmp/
+.gradio/
+
+# --- 本地路径与配置 ---
+*.local.json
+config.local.*
+.env
+.env.*
+
+# --- 系统 ---
+.DS_Store
+Thumbs.db
+desktop.ini
